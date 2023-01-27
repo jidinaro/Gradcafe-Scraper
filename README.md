@@ -11,7 +11,7 @@ from scraper import scraper
 from cleaner import cleaner, checker  
 
 url = "https://www.thegradcafe.com/survey/?institution=&program=Economics&degree=PhD&page=" #set the gradcafe url to scrape (i.e. program and degree)
-pages = 4
+pages = 4 #integer value of pages you want to scrape
 scraper(path,url,pages)
 cleaner(path,'econnn') #The second variable is a string one, useful to identify the data of the program you are scraping.
 ```
