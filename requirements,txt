@@ -1,0 +1,5 @@
+beautifulsoup4==4.11.1
+fuzzywuzzy==0.18.0
+pandas==1.4.4
+requests==2.28.1
+dict_univ.xlsx
