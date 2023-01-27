@@ -12,10 +12,11 @@ from cleaner import cleaner, checker
 
 url = "https://www.thegradcafe.com/survey/?institution=&program=Economics&degree=PhD&page=" #set the gradcafe url to scrape (i.e. program and degree)
 pages = 4
-rnkg(URL,path,rank) #Call this function as many times as you need (i.e.: subjects)
+scraper(path,url,pages)
+cleaner(path,'econnn') #The second variable is a string one, useful to identify the data of the program you are scraping.
 ```
 
-* Compile and run the code, it will collect all the ranking urls and export them as Excel files.
+* Compile and run the code, it will collect all the data from the number of pages you have entered, and export it as nice formatted matrix as an Excel file.
 
 ## Contact
 If you want to contact me, you can reach me at juanidinaro@gmail.com
